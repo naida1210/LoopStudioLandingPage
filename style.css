@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background: url("./images/desktop/image-hero.jpg") no-repeat center;
+    background-size: cover;
+}
+
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul, footer ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: #fff;
+    list-style-type: none;
+    font-size: 16px;
+
+}
+
+nav ul li, footer ul li{
+  margin-right: 20px;
+  font-family:'Josefin Sans', sans-serif; 
+  transition: 0.3 ease-in-out;
+
+}
+
+nav ul li:hover, footer ul li:hover {
+    border-bottom: 1px solid #fff;
+}
+
+nav .logo{
+    padding-left: 30px;
+   
+}
+
+.textInfo{
+    font-family:'Josefin Sans', sans-serif; ;
+    color: #fff;
+    font-size: 4rem;
+    width: 700px;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 0.3rem;
+    border: 2px solid #fff;
+    margin: 150px;
+    padding: 70px;
+}
+
+.vr{
+ height: 100vh;
+ width: 100vw;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+ position: relative;
+}
+
+.card {
+    height: auto;
+    padding: 100px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    position: absolute;
+    right: 130px;
+    bottom: -10px;
+
+
+}
+
+.card h2{
+    font-size: 3rem;
+    font-family:'Josefin Sans', sans-serif; 
+    text-transform: uppercase;
+}
+
+.card p{
+    font-family: 'Alata', sans-serif;
+    width: 500px;
+    margin-top:20px;
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: 0.05rem;
+    color: rgb(89, 86, 86);
+}
+
+
+.interactiveImg{
+  
+    position: absolute;
+    left:130px
+}
+
+
+.footerVR{
+    color: #000;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    font-size: 2rem;
+    font-weight: 100;
+    font-family:'Josefin Sans', sans-serif; 
+
+}
+
+button{
+    color: #fff;
+    padding: 12px;
+    width: 12vw;
+    background-color: #000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+     letter-spacing: 0.03rem;
+     font-size: 16px;
+     margin-right: 100px;
+}
+   
+   
+.grid {
+display: grid; 
+grid-template-columns: repeat(4, 1fr); 
+grid-template-rows: repeat(2, 1fr); 
+grid-column-gap: 10px;
+grid-row-gap: 10px; 
+ 
+      }
+
+    
+.grid div{
+    display: block;
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+div h3{
+ position: absolute;
+ bottom: 20px;
+ color: #fff;
+ left:70px;
+ text-transform: uppercase;
+ 
+ width:100px;
+ font-weight: 100;
+ font-family:'Josefin Sans', sans-serif; 
+ font-size: 2rem;
+
+
+
+ 
+}
+.grid img{
+   width: 90%;
+   
+}
+
+footer{
+    margin-top: 100px;
+    height: 150px;
+    background-color: #000;
+    color: #fff;
+}
+
+.navigation, .foooternav{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-weight: 100;
+ font-family:'Josefin Sans', sans-serif; 
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.social div:hover {
+    border-bottom: 1px solid #fff;
+}
+
+
+
